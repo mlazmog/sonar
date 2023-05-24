@@ -1,0 +1,8 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><comment id="flvCp-:Sg]a{cPfMch(." x="779" y="62" h="254" w="312">Sensor de ultrasonidos:
+-Añadir extensión sonar
+-En la tarjeta de ampliación cambiar la posición de los "jumpers" de 3v3 o SV
+
+-Conexión
+       -echo P1
+       -trig P2</comment><comment id="xR[k5zz:O~zOPx*~v@uX" x="1112" y="68" h="200" w="200">Miguel Lázaro Moguilnaia
+2ºESO A</comment><block type="pxt-on-start" id="u1B](SIFSDf!5$Sr,zNV" x="0" y="0"><statement name="HANDLER"><block type="basic_show_icon" id="TJvH87]+RU~W_0$SoXE@"><field name="i">IconNames.Yes</field><next><block type="device_pause" id=")NO5B_P0sLHd@Xl`bee~"><value name="pause"><shadow type="timePicker" id="2}ObiktLCl7m;,UA@@_%"><field name="ms">1000</field></shadow></value><next><block type="device_clear_display" id="MC@/sbY0ys~%q_BrAj{J"></block></next></block></next></block></statement></block><block type="device_forever" id="b|{yH}-YWHNv/oeRy}vE" x="273" y="7"><statement name="HANDLER"><block type="device_show_number" id="`%2T3rB.=;=kNuo?z{vH"><value name="number"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="sonar_ping" id="%ceB@NH4_c@OP*)rz(kc"><field name="trig">DigitalPin.P2</field><field name="echo">DigitalPin.P1</field><field name="unit">PingUnit.Centimeters</field></block></value></block></statement></block></xml>
